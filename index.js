@@ -15,11 +15,7 @@ const questions = [
         name: "description",
         message: "describe this project",
     },
-    {
-        type: "input",
-        name: "Table",
-        message: "discuss the table of contents if applicable",
-    },
+ 
     {
         type: "input",
         name: "Installation",
@@ -36,12 +32,17 @@ const questions = [
         message: "what tests have you done on this application",
     },
     {
+        type:"list",
+        name:"License",
+        message:"Include a License: ",
+        choices:['MIT', 'Apache 2.0', 'No License']
+    },
+    {
         type: "input",
         name: "Questions",
         message: "Im david pumpkin. Questions?",
     },
-];
-
+]
 
 
 // TODO: Create a function to write README file
@@ -58,15 +59,15 @@ function init() {
     })
 }
 
-//for the license render
-// function writeToFile(fileName, data) { 
-//     fs.writeFile(fileName, data, (err) =>
-//       err ? console.error(err) : console.log('Success!')) 
-// }
+// for the license render
+function writeToFile(fileName, data) { 
+    fs.writeFile(fileName, data, (err) =>
+      err ? console.error(err) : console.log('Success!')) 
+}
 
 // function doit() {
     
-//         writeToFile('README.md',renderLicenseBadge())
+//         writeToFile('README.md',renderLicenseBadge(license))
 //     }
 
 init();
