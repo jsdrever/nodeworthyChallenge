@@ -35,7 +35,7 @@ const questions = [
         type:"list",
         name:"License",
         message:"Include a License: ",
-        choices:['MIT', 'Apache 2.0', 'No License']
+        choices:['MIT', 'Apache', 'No License']
     },
     {
         type: "input",
@@ -45,7 +45,9 @@ const questions = [
 ]
 
 
-// TODO: Create a function to write README file
+
+
+
 function writeToFile(fileName, data) { 
     fs.writeFile(fileName, data, (err) =>
       err ? console.error(err) : console.log('Success!')) 
