@@ -1,19 +1,19 @@
-# why 
+# clever title
   
   ###License Badge
   undefined
 
   ### Description
-  do
+  make a professional readme
 
 ### How to install the Application
-  you
+  skillfully
 
 ### How the User operates the application
-  hate
+  makes a nice template
 
 ### Tests Used on Application
-  me
+  all of them
 
 ### Remaining Questions
-  die
+  who is that
