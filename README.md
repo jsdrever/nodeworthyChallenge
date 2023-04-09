@@ -1,20 +1,23 @@
-# j
+# ReadMe Generator
   
 ### License Badge
+![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
+
+
   undefined
-  MIT
+  Apache
 
 ### Description
-  j
+  creates prefab ReadMe.MD
 
 ### How to install the Application
-  j
+  npm i then node index.js
 
 ### How the User operates the application
-  j
+  i already answered that
 
 ### Tests Used on Application
-  j
+  algebra maybe read macbeth idk
 
 ### Remaining Questions
-  j
+  oh i now that guy
