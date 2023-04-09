@@ -1,16 +1,16 @@
 
-function renderLicenseBadge(license) {
-  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+function renderLicenseBadge(License) {
+  return `![GitHub license](https://img.shields.io/badge/license-${License}-blue.svg)`;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(_license) {
+function renderLicenseLink(License) {
   // return ` ${renderLicenseBadge(data)} ${renderLicenseSection(license)}`
   let mylicense = ''
-  if (answers.license === 'MIT') {
-    mylicense = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  } else if (answers.license === 'Apache') {
+  if (data.License === 'MIT') {
+    mylicense = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  } else if (data.License === 'Apache') {
     mylicense = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
   } else {
     mylicense = '';
@@ -20,18 +20,19 @@ function renderLicenseLink(_license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  return `# ${license} ${renderLicenseLink(license)}`;
+function renderLicenseSection(License) {
+  return `# ${License} ${renderLicenseLink(License)} ${renderLicenseBadge(License)} `;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ###License Badge
+### License Badge
   ${data.mylicense}
+  ${data.License}
 
-  ### Description
+### Description
   ${data.description}
 
 ### How to install the Application
