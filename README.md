@@ -1,4 +1,4 @@
-# ReadMe Generator
+# socialNetwork API
   
 ### License Badge
 ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
@@ -8,16 +8,16 @@
   Apache
 
 ### Description
-  creates prefab ReadMe.MD
+  This is an API for a social network web apllication.
 
 ### How to install the Application
-  npm i then node index.js
+  npm i, npm run seed, npm run start
 
 ### How the User operates the application
-  i already answered that
+  Users can share thoughts, react to friends' thoughts, and create a friends list.
 
 ### Tests Used on Application
-  algebra maybe read macbeth idk
+  none whatsoever
 
 ### Remaining Questions
-  oh i now that guy
+  Feel free to message me at https://github.com/jsdrever for further inquiry.
