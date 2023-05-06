@@ -74,6 +74,8 @@
 
 // init();
 // // doit();
+
+//! node index.js to start in terminal
 // Imported required packages
 const fs = require('fs');
 const path = require('path');
@@ -120,16 +122,16 @@ const questions = [
     message: 'What command should be run to run tests?',
     default: 'npm test',
   },
-  {
-    type: 'input',
-    name: 'usage',
-    message: 'What does the user need to know about using the repo?',
-  },
-  {
-    type: 'input',
-    name: 'contributing',
-    message: 'What does the user need to know about contributing to the repo?',
-  },
+//   {
+//     type: 'input',
+//     name: 'usage',
+//     message: 'What does the user need to know about using the repo?',
+//   },
+//   {
+//     type: 'input',
+//     name: 'contributing',
+//     message: 'What does the user need to know about contributing to the repo?',
+//   },
 ];
 
 // Function to write README file using the user input
